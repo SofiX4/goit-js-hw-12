@@ -100,9 +100,6 @@ body {
   }
 }
 
-.hidden {
-  display: none;
-}
 
 input {
   border: 1px solid #808080;
@@ -117,4 +114,19 @@ input:hover {
 
 input:focus {
   border: 1px solid #4e75ff;
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.gallery-item {
+  height: 300px;
 }
